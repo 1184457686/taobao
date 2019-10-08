@@ -1,0 +1,281 @@
+body{
+    font-family:"宋体";
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    color: rgb(108,108,108)
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+a:hover{
+    color: red;
+}
+
+
+.top{
+    background: rgb(245,245,245);
+    height: 35px;
+    width: 100%;
+    line-height: 35px;
+    position: absolute;
+    top: 0;
+    font-size: 12px;
+    display: inline-block;
+    
+}
+.top .area{
+    height: 35px;
+    width: 72px;
+    background: rgb(245,245,245) ;
+    position: absolute;
+    left: 164px;
+    margin-right: 5px;
+    text-indent: 5px;
+
+}
+.top .area:hover{
+    background:  rgb(255,255,255) ;  
+}
+
+.top .area:hover .areas{
+   display: inline-block;
+}
+
+ .top .area .areas{
+     width: 300px;
+     height: 330px;
+     position: relative;
+     top: 1px;
+     left:0;
+     text-align: left;
+     display: none;
+     background: rgb(255,255,255);
+     overflow: auto;
+     border: 1px solid rgba(245,245,245,.5);
+ }
+
+ .top .area .areas a li{
+     color: black;
+     font-weight: 0;
+}
+
+ .top .area .areas a li:hover{
+     background:rgb(244,244,244);
+ }
+ .top .login a{
+     position: relative;
+     left:241px;
+     color: red; 
+ }
+
+ .top .registe{
+    position: relative;
+    left:309px;
+    top: -34px;
+    width: 50px;
+    color: black;
+    margin: 0;
+
+}
+
+.top .registe a:hover{
+    color: red;
+}
+.top .registe a:active{
+    color: red;
+}
+
+ .top .Phone{
+        position: relative;
+        left:377px;
+        top: -68px;
+        width: 100px;
+        color: black;
+        margin-right: 0px
+ }
+
+
+.top .mine{
+    width: 79px;
+    height: 35px;
+    background: rgb(245,245,245);
+    position: relative;
+    left: 740px;
+    top: -105px;
+    float: left;
+    text-indent: 5px;
+}
+
+.top .mine .detail{
+    background:rgb(255,255,255);
+    border-top: none;   
+    display: none;
+    width: 85px;
+}
+.top .mine:hover{
+    background: rgb(255,255,255);
+  }
+
+.top .mine:hover .detail {
+    display: inline-block;
+  }
+ .top .mine .detail a:hover li{
+   background:rgb(244,244,244);
+ }
+ .top .mine .detail a li:hover{
+    color: black; 
+  }
+ 
+ .top .shopCar{
+  width: 80px;
+  height: 35px;
+  text-indent: 5px;
+  position: relative;
+  left: 740px;
+  top: -105px;
+  float: left;
+ padding: 0 6px;
+ text-align: center;
+}
+
+.top .Collection{
+    position: relative;
+    left: 740px;
+    top: -105px;
+    float: left;
+    background: rgb(245,245,245);
+    width: 86px;
+    height: 35px;
+    background: rgb(245,245,245)
+}
+.top .Collection .img{
+    width: 15px;
+    float: left;
+    margin-right: 5px;
+}
+.top .Collection .detail{
+    width: 75px;
+    float: left;
+    margin-right: 5px;
+    border: 1px solid rgb(238, 238, 238);
+    display: none;
+}
+
+.top .Collection:hover{
+    background: rgb(255,255,255);
+}
+.top .Collection:hover .detail{
+    display: inline-block;
+}
+.top .Collection .detail a li:hover{
+    background:  rgb(244,244,244);
+    color: black;
+}
+.top .classification{
+    position: relative;
+    left: 740px;
+    top: -105px;
+    float: left;
+    width: 52px;
+    padding: 0 6px;
+}
+ .top .line{
+    position: relative;
+    left: 740px;
+    top: -105px;
+    float: left;
+     width: 10px;
+     padding: 0 4px;
+ }
+ .top .seller{
+    width: 107px;
+    height: 35px;
+    background: rgb(245,245,245);
+    position: relative;
+    left: 740px;
+    top: -105px;
+    float: left;
+    text-indent: 10px;
+   
+ }
+ .top .seller .detail{
+    width: 90px;
+    float: left;
+    border: 1px solid rgb(238, 238, 238);
+    display: none;
+    position: relative;
+    left: 0px;
+    top: 0px;
+ }
+ .top .seller:hover{
+     background: rgb(255,255,255);
+ }
+
+ .top .seller:hover .detail{
+     display: inline-block;
+ }
+ .top .seller .detail a li:hover{
+    background:  rgb(244,244,244);
+    color: black;
+}
+
+.top .Service{
+    width: 107px;
+    height: 35px;
+    background: rgb(245,245,245);
+    position: relative;
+    left: 740px;
+    top: -105px;
+    float: left;
+    text-indent: 10px;
+   
+}
+.top .Service .detail{
+    width: 90px;
+    float: left;
+    border: 1px solid rgb(238, 238, 238);
+    display: none;
+    position: relative;
+   
+    
+ }
+.top .Service:hover{
+    background: rgb(255,255,255);
+}
+
+.top .Service:hover .detail{
+    display: inline-block;
+}
+.top .Service .detail a li:hover{
+   background:  rgb(244,244,244);
+   color: black;
+}
+.top .navigation span{
+    width: 107px;
+    height: 35px;
+    background: rgb(245,245,245);
+    position: relative;
+    left: 740px;
+    top: -105px;
+    float: left;
+    text-indent: 10px;
+ }
+  .top .navigation .detail{
+      position: absolute;
+      left: 162px;
+      top: 35px;
+      width: 1215px;
+      height: 320px;
+      background: red;
+      display: none
+  }
+  .top .navigation span:hover{
+      background: rgb(245,245,245);
+  }
+  .top .navigation:hover .detail{
+    display: inline-block;
+}
