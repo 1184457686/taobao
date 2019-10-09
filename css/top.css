@@ -14,6 +14,9 @@ li{
 a:hover{
     color: red;
 }
+*{
+    color: black;
+}
 
 
 .top{
@@ -55,7 +58,8 @@ a:hover{
      display: none;
      background: rgb(255,255,255);
      overflow: auto;
-     border: 1px solid rgba(245,245,245,.5);
+     border: 1px solid rgb(238,238,238);
+     border-top: none;
  }
 
  .top .area .areas a li{
@@ -105,16 +109,18 @@ a:hover{
     background: rgb(245,245,245);
     position: relative;
     left: 740px;
-    top: -105px;
+    top: -103px;
     float: left;
     text-indent: 5px;
+    
 }
 
 .top .mine .detail{
-    background:rgb(255,255,255);
-    border-top: none;   
+    background:rgb(255,255,255);  
     display: none;
     width: 85px;
+    border: 1px solid rgb(238,238,238);
+    border-top: none;
 }
 .top .mine:hover{
     background: rgb(255,255,255);
@@ -136,7 +142,7 @@ a:hover{
   text-indent: 5px;
   position: relative;
   left: 740px;
-  top: -105px;
+  top: -103px;
   float: left;
  padding: 0 6px;
  text-align: center;
@@ -145,7 +151,7 @@ a:hover{
 .top .Collection{
     position: relative;
     left: 740px;
-    top: -105px;
+    top: -103px;
     float: left;
     background: rgb(245,245,245);
     width: 86px;
@@ -178,7 +184,7 @@ a:hover{
 .top .classification{
     position: relative;
     left: 740px;
-    top: -105px;
+    top: -103px;
     float: left;
     width: 52px;
     padding: 0 6px;
@@ -192,12 +198,12 @@ a:hover{
      padding: 0 4px;
  }
  .top .seller{
-    width: 107px;
+    width: 100px;
     height: 35px;
     background: rgb(245,245,245);
     position: relative;
     left: 740px;
-    top: -105px;
+    top: -103px;
     float: left;
     text-indent: 10px;
    
@@ -224,12 +230,12 @@ a:hover{
 }
 
 .top .Service{
-    width: 107px;
+    width: 80px;
     height: 35px;
     background: rgb(245,245,245);
     position: relative;
     left: 740px;
-    top: -105px;
+    top: -103px;
     float: left;
     text-indent: 10px;
    
@@ -255,7 +261,7 @@ a:hover{
    color: black;
 }
 .top .navigation span{
-    width: 107px;
+    width: 80px;
     height: 35px;
     background: rgb(245,245,245);
     position: relative;
@@ -268,14 +274,50 @@ a:hover{
       position: absolute;
       left: 162px;
       top: 35px;
-      width: 1215px;
-      height: 320px;
-      background: red;
-      display: none
+      width: 1176px;
+      height: 325px;
+      /* display: none; */
+      border: 1px solid rgb(238,238,238);
+      border-top: none;
   }
-  .top .navigation span:hover{
-      background: rgb(245,245,245);
+.top .navigation span:hover{
+      background: rgb(255,255,255);
   }
-  .top .navigation:hover .detail{
+.top .navigation:hover .detail{
     display: inline-block;
+}
+.top .navigation .detail .left{
+    background-color: rgb(255,255,255);
+    width:294px;
+    height:325px;
+    float: left;
+    border-right:1px solid rgb(238,238,238);
+}
+ .top .navigation .detail .left p{
+    font-size: 18px;
+    margin: 0;
+    color: rgb(252,66,0);
+    font-weight: 900;
+    margin-left: 14px;
+} 
+.top .navigation .detail .left .List_left{
+  line-height: 32px;
+  width: 44px;
+  text-align: center;
+  margin-left: 5px;
+  float: left;
+  margin-right: 20px;
+} 
+.top .navigation .detail .left .List_left a:hover li{
+    width: 44px;
+    background-color:rgb(255,85,0);
+    color: rgb(255,255,255);
+}
+
+.top .navigation .detail .left:nth-child(2) p{
+    color: rgb(170,192,79);
+}
+.top .navigation .detail .left:nth-child(2) .List_left  a:hover li{
+    background-color: rgb(170,192,79);
+    color: rgb(255,255,255);
 }
