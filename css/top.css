@@ -319,5 +319,34 @@ a:hover{
 }
 .top .navigation .detail .left:nth-child(2) .List_left  a:hover li{
     background-color: rgb(170,192,79);
-    color: rgb(255,255,255);
+}
+.top .navigation .detail .left:nth-child(2) .List_left  a li{
+    width: 50px;
+}
+.top .navigation .detail .left:nth-child(2) .List_left{
+    margin-right:49px; 
+}
+.top .navigation .detail .left:nth-child(3) p{
+    color: rgb(215,86,150);
+}
+.top .navigation .detail .left:nth-child(3) .List_left  a li{
+    width: 50px;
+}
+.top .navigation .detail .left:nth-child(3) .List_left{
+    margin-right:49px; 
+}
+.top .navigation .detail .left:nth-child(3) .List_left  a:hover li{
+    background-color: rgb(215,86,150);
+    
+}
+.top .navigation .detail .right{
+    float: left;
+}
+
+.top .navigation .detail .right p{
+    font-size: 18px;
+    margin: 0;
+    margin-left: 14px;
+    color: rgb(46,159,219);
+    font-weight: 900;
 }
