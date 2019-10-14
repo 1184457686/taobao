@@ -355,6 +355,7 @@ a:hover{
 .top .navigation .detail .right{
     float: left;
     background-color:rgb(255,255,255); 
+    height:325px;
 }
 
 .top .navigation .detail .right p{
@@ -403,7 +404,7 @@ a:hover{
     width: 145px;
     height: 60px;
     position: relative;
-    left: 172px;
+    left: 190px;
     top: 40px;
     margin: auto 0;
     margin-right: 30px;
@@ -522,7 +523,7 @@ input[type=search]::-webkit-search-cancel-button{
     background:rgb(255,255,255);
     border: 1px solid rgb(255,80,0);
     border-top: none;
-    font-size: 14px;
+    font-size: 12px;
 }
 .service-bd  dt{
     widows: 100%;
@@ -539,7 +540,7 @@ input[type=search]::-webkit-search-cancel-button{
 .service-bd  dt li:nth-child(6){
     color: red;
     float: right;
-    margin-right: 5px;
+    margin-right: 10px;
 }
 
 .service-bd  dt:hover{
@@ -548,4 +549,9 @@ input[type=search]::-webkit-search-cancel-button{
 .service-bd  dt li a:hover{
     text-decoration: underline;
 }
-
+ .service-bd dt:nth-child(3){
+    padding-left: 29px;
+}
+.service-bd dt:nth-child(3) li:nth-of-type(6){
+    margin-left: 8px;
+} 

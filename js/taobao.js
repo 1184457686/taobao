@@ -4,7 +4,7 @@
     // function myfunction(x){
     //     x.style.outline ="none";
     // }
-
+    oncontextmenu="return false";
     var search = document.getElementById("submit");
     var option = document.getElementsByClassName("option");
     var  n=search.style.background;
