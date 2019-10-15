@@ -10,6 +10,7 @@
     var  n=search.style.background;
     var turn = document.getElementById("trun");
 
+
     option[0].onclick = function  m(x){
         search.style.background = n;
     }
@@ -51,5 +52,4 @@
             i=i+1;
             m = m+Text[i];
         },500)
-      
-
+         
